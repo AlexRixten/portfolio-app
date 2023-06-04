@@ -1,0 +1,14 @@
+.avatar {
+  @apply h-[150px] flex items-center justify-center flex-col;
+  img {
+    @apply rounded-full h-[150px];
+  }
+
+  h4 {
+    @apply mt-[30px]
+  }
+
+  p {
+    @apply mt-[15px]
+  }
+}

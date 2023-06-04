@@ -1,0 +1,25 @@
+.title {
+  font-family: "Inter", sans-serif;
+  transition: color 200ms linear;
+  @apply capitalize font-bold;
+  &.h2 {
+    @apply text-nightRiderColor text-3xl dark:text-whiteColor;
+  }
+
+  &.h4 {
+    @apply text-nightRiderColor text-[18px] leading-[22px] dark:text-whiteColor;
+  }
+}
+
+.subtitle {
+  font-family: "Inter", sans-serif;
+  transition: color 200ms linear;
+  @apply capitalize font-normal;
+  &.h6 {
+    @apply text-greyColor text-sm;
+  }
+
+  &.p {
+    @apply text-[15px] leading-[24px] text-greyColor;
+  }
+}
